@@ -1,0 +1,48 @@
+/* GENERALES - ESTILOS */
+* {
+  margin: 0%;
+  border: 0%;
+}
+
+.flex {
+  display: flex;
+}
+
+h1 {
+  font-size: 80px;
+  font-weight: 800;
+}
+
+h4 {
+  color: white;
+  font-size: 30px;
+  font-weight: 300;
+  font-style: italic;
+}
+
+/* HEADER -ESTILOS */
+
+
+/* PRINCIPAL SECCION - ESTILOS */
+
+.principal-seccion {
+  background-image: url(../img/greenhouse-g5560a519c_1280.jpg);
+  background-size: 100%;
+  height: 600px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  color: rgb(7, 75, 7);
+}
+
+.container-principal {
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgba(170, 235, 97, 0.2);
+  width: 100%;
+  height: 200px;
+}
+
+/* FOOTER - ESTILOS */
+
+

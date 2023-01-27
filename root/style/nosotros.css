@@ -1,0 +1,17 @@
+
+/* PRINCIPAL - ESTILOS */
+
+h1 {
+    margin: 30px;
+    text-align: center;
+    color: #576924;
+}
+
+.principal-text {
+    
+    color: white;
+    text-align: center;
+    width: 350px;
+    height: 45px;
+    background: -webkit-linear-gradient(left, #82aa13, #c7d496);
+}
