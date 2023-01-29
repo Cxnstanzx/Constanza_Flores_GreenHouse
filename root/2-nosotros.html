@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
     <link rel="stylesheet" href="style/estilosGenerales.css">
     <link rel="stylesheet" href="style/nosotros.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Green Work - Nosostros</title>
   </head>
   <body>
@@ -18,84 +19,94 @@
       <img class="logo" src="img/pngegg.png" alt="" />
       <nav class="header-navbar">
         <ul class="header-lista flex">
-          <li><a href="1-index.html">Inicio</a></li>
+          <li><a class="hiddenMobile" href="1-index.html">Inicio</a></li>
           <li><a href="2-nosotros.html">Nosotros</a></li>
-          <li><a href="3-proyectos.html">Proyectos</a></li>
-          <li><a href="4-blog.html">Blog</a></li>
+          <li><a class="hiddenMobile" href="3-proyectos.html">Proyectos</a></li>
+          <li><a class="hiddenMobile" href="4-blog.html">Blog</a></li>
         </ul>
+  
       </nav>
       
-      <input class="header-contactanos" type="button" value="Contactanos" />
+      <input class="header-contactanos hiddenMobile" type="button" value="Contactanos" />
+      <img class= "hamburguesa flex" src="./img/icon-hamburger.svg" alt="">
     </header>
 
     <!-- SECCION PRNCIPAL -->
     <h1>GREEN WORK</h1>
-    <section class="container-fluid principal-section">
-      <div class="row">
-        <img class="col-7" src="./img/Como Park Conservatory.png" alt="principal-img">
-        <div class="col-5">
-          <h2 class="principal-text">¿QUIENES SOMOS?</h2>
-          <p>
+    <section class="container-fluid principal-section flex">
+      <img class="img-principal col-xl-7 col-xs-12" src="./img/Como Park Conservatory.png" alt="principal-img">
+      <div class="container-principal col-xl-5 col-xs-12">
+        <h2 class="principal-text">¿QUIENES SOMOS?</h2>
+        <p class="parrafo-principal">
                     Lorem ipsum dolor sit amet. A omnis odit nam tenetur excepturi id repudiandae distinctio non blanditiis amet quo magnam expedita. Et eaque facilis aut ducimus ipsa et laudantium ipsa est repellat rerum non eligendi harum in voluptatem necessitatibus. At molestiae molestias eos ullam inventore sit recusandae quae.
 Rem voluptatibus nihil aut eaque atque est corporis quibusdam ut quia dolor et sapiente distinctio et sint voluptatibus! Aut quia vitae id ducimus maiores cum dolorem labore!
 Nam inventore quia qui asperiores fugit rem sint omnis aut optio nulla aut nesciunt rerum vel sunt numquam et officiis repudiandae. Qui numquam esse ut veniam ipsa non voluptatem molestiae!
-          </p>
-        </div>
-      </div>  
+        </p>
+      </div> 
     </section>
 
     <!-- SECCION SEGUNDO -->
 
-<div id="carouselExample" class="carousel slide">
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="./img/A Gorgeous Greenhouse Heals a Family.png" class="d-block w-100" alt="...">
+    <div class="content-carousel">
+      <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./img/A Gorgeous Greenhouse Heals a Family.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./img/greenhouse-g5560a519c_1280.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./img/greenhouse-g9ed3eccdd_1280.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
     </div>
-    <div class="carousel-item">
-      <img src="./img/greenhouse-g5560a519c_1280.jpg" class="d-block w-100" alt="...">
-    </div>
-    <div class="carousel-item">
-      <img src="./img/greenhouse-g9ed3eccdd_1280.jpg" class="d-block w-100" alt="...">
-    </div>
-  </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
-</div>
-
-    <section>
+    <!-- <section>
         <img src="./img/A Gorgeous Greenhouse Heals a Family.png" alt="">
-    </section>
+    </section> -->
 
-    <h3>APOYO</h3>
+    
     <!-- SECCION APOYO -->
 
-    <div>
-        <img src="" alt="">
-        <p>Lorem ipsum dolor sit amet. Non distinctio harum ut voluptatum labore qui repellat expedita. Qui consequuntur molestiae est sunt aliquam et accusantium fuga non corrupti enim et harum iste. Qui pariatur tempore rem delectus voluptas aut magni quis nam nostrum dolor est consequatur quidem.
-Et beatae cupiditate ut magnam galisum ex dolor soluta id illum unde et nemo quia sed nihil deleniti vel voluptate internos. Aut consectetur quia in eveniet tenetur id praesentium dolores est fugit beatae id autem nesciunt qui ipsa minima!
-Ex atque galisum non quia omnis ea inventore consequatur hic dolorem expedita At sunt deleniti. Aut officia deleniti At distinctio quam qui earum consequatur et voluptas omnis.</p>
-    </div>
+    <h3 class="titulo-cards">APOYO</h3>
 
-    <div>
-        <img src="" alt="">
-        <p>Lorem ipsum dolor sit amet. Non distinctio harum ut voluptatum labore qui repellat expedita. Qui consequuntur molestiae est sunt aliquam et accusantium fuga non corrupti enim et harum iste. Qui pariatur tempore rem delectus voluptas aut magni quis nam nostrum dolor est consequatur quidem.
-Et beatae cupiditate ut magnam galisum ex dolor soluta id illum unde et nemo quia sed nihil deleniti vel voluptate internos. Aut consectetur quia in eveniet tenetur id praesentium dolores est fugit beatae id autem nesciunt qui ipsa minima!
-Ex atque galisum non quia omnis ea inventore consequatur hic dolorem expedita At sunt deleniti. Aut officia deleniti At distinctio quam qui earum consequatur et voluptas omnis.</p>
-    </div>
+    <div class="section-cards flex">
+      <div class="card hiddenMobile" style="width: 18rem;">
+        <img src="./img/e18dd6edb4bfd7c09d9522fe976e657c.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-text">Lorem ipsum dolor sit amet. Non distinctio harum ut voluptatum labore qui repellat expedita. Qui consequuntur molestiae est sunt aliquam et accusantium fuga non corrupti enim et harum iste. Qui pariatur tempore rem delectus voluptas aut magni quis nam nostrum dolor est consequatur quidem.
+  Et beatae cupiditate ut magnam galisum ex dolor soluta id illum unde et nemo quia sed nihil deleniti vel voluptate internos. Aut consectetur quia in eveniet tenetur id praesentium dolores est fugit beatae id autem nesciunt qui ipsa minima!
+  Ex atque galisum non quia omnis ea inventore consequatur hic dolorem expedita At sunt deleniti. Aut officia deleniti At distinctio quam qui earum consequatur et voluptas omnis.</p>
+        </div>
+      </div>
 
-    <div>
-        <img src="" alt="">
-        <p>Lorem ipsum dolor sit amet. Non distinctio harum ut voluptatum labore qui repellat expedita. Qui consequuntur molestiae est sunt aliquam et accusantium fuga non corrupti enim et harum iste. Qui pariatur tempore rem delectus voluptas aut magni quis nam nostrum dolor est consequatur quidem.
-Et beatae cupiditate ut magnam galisum ex dolor soluta id illum unde et nemo quia sed nihil deleniti vel voluptate internos. Aut consectetur quia in eveniet tenetur id praesentium dolores est fugit beatae id autem nesciunt qui ipsa minima!
-Ex atque galisum non quia omnis ea inventore consequatur hic dolorem expedita At sunt deleniti. Aut officia deleniti At distinctio quam qui earum consequatur et voluptas omnis.</p>
-    </div>
+      <div class="card" style="width: 18rem;">
+        <img src="./img/e18dd6edb4bfd7c09d9522fe976e657c.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-text">Lorem ipsum dolor sit amet. Non distinctio harum ut voluptatum labore qui repellat expedita. Qui consequuntur molestiae est sunt aliquam et accusantium fuga non corrupti enim et harum iste. Qui pariatur tempore rem delectus voluptas aut magni quis nam nostrum dolor est consequatur quidem.
+  Et beatae cupiditate ut magnam galisum ex dolor soluta id illum unde et nemo quia sed nihil deleniti vel voluptate internos. Aut consectetur quia in eveniet tenetur id praesentium dolores est fugit beatae id autem nesciunt qui ipsa minima!
+  Ex atque galisum non quia omnis ea inventore consequatur hic dolorem expedita At sunt deleniti. Aut officia deleniti At distinctio quam qui earum consequatur et voluptas omnis.</p>
+        </div>
+      </div>
 
+      <div class="card hiddenMobile" style="width: 18rem;">
+        <img src="./img/e18dd6edb4bfd7c09d9522fe976e657c.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-text">Lorem ipsum dolor sit amet. Non distinctio harum ut voluptatum labore qui repellat expedita. Qui consequuntur molestiae est sunt aliquam et accusantium fuga non corrupti enim et harum iste. Qui pariatur tempore rem delectus voluptas aut magni quis nam nostrum dolor est consequatur quidem.
+  Et beatae cupiditate ut magnam galisum ex dolor soluta id illum unde et nemo quia sed nihil deleniti vel voluptate internos. Aut consectetur quia in eveniet tenetur id praesentium dolores est fugit beatae id autem nesciunt qui ipsa minima!
+  Ex atque galisum non quia omnis ea inventore consequatur hic dolorem expedita At sunt deleniti. Aut officia deleniti At distinctio quam qui earum consequatur et voluptas omnis.</p>
+        </div>
+      </div>
+    </div>
     <!-- FOOTER -->
     <footer>
         <section class="container-footer flex">
