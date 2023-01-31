@@ -1,5 +1,4 @@
 header {
-  height: 120px;
   justify-content: space-around;
   align-items: center;
   background: -webkit-linear-gradient(left, #82aa13, #c7d496);
@@ -61,6 +60,8 @@ footer {
 }
 
 .container-footer {
+  display: flex;
+  justify-content: space-around;
   padding: 30px 100px 0px;
 }
 
@@ -83,10 +84,10 @@ footer {
 }
 
 .navbar-footer {
-  width: 392px;
-  margin-right: 157px;
+  width: 60%;
+
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .navbar1 {
@@ -96,6 +97,7 @@ footer {
 }
 
 div a {
+  height: 90%;
   padding: 0.5rem;
   color: white;
 }
@@ -128,4 +130,111 @@ input {
   align-items: flex-end;
   background: -webkit-linear-gradient(left, #82aa13, #c7d496);
   color: #95a89a;
+}
+
+@media screen and (max-width: 768px) {
+  /* HEADER */
+  .hiddenMobile {
+    display: none;
+  }
+
+  #visible {
+    visibility: visible;
+  }
+
+  .hamburguesa {
+    display: flex;
+    visibility: visible;
+  }
+
+  /* PRINCIPAL SECTION */
+
+  .principal-section {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .img-principal {
+    width: 500px;
+    height: 335px;
+  }
+
+  .container-principal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .principal-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0px 0px;
+  }
+
+  .parrafo-principal {
+    font-size: 25px;
+    margin: 0px;
+    padding: 30px;
+  }
+
+  /* CAROUSEL */
+
+  .content-carousel {
+    padding: 30px 80px;
+  }
+
+  /* CARDS */
+
+  .section-cards {
+    margin: 0px 0px 50px;
+  }
+
+  /* FOOTER */
+
+  footer {
+    height: 535px;
+  }
+  .container-footer {
+    align-content: center;
+    height: 100%;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    padding: 50px 70px;
+  }
+  .mover {
+    display: flex;
+    justify-content: center;
+  }
+  .seccion-1Footer {
+    flex-direction: column-reverse;
+    width: 100%;
+  }
+  .redes {
+    margin-bottom: 3rem;
+    flex-wrap: wrap;
+  }
+  input {
+    height: 40px;
+  }
+  .navbar-footer {
+    width: 344px;
+  }
+  .navbar1 {
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+  }
+  .copyright {
+    justify-content: center;
+    padding: 0rem;
+    padding-bottom: 40px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .navbar-footer {
+    display: flex;
+    flex-direction: column;
+  }
 }

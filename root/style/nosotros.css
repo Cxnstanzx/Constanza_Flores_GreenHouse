@@ -61,7 +61,7 @@ h1 {
   background: -webkit-linear-gradient(left, #82aa13, #c7d496);
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 768px) {
   /* HEADER */
   .hiddenMobile {
     display: none;
@@ -144,7 +144,7 @@ h1 {
     flex-wrap: wrap;
   }
   input {
-    width: 260px;
+/* margin entre nav y form hace que se vea mal */
     height: 40px;
   }
   .navbar-footer {
