@@ -1,0 +1,233 @@
+@media screen and (max-width: 768px) {
+
+    /* HEADER */
+    .hiddenMobile {
+        display: none;
+    }
+
+    #visible {
+        visibility: visible;
+    }
+
+    .hamburguesa {
+        display: flex;
+        visibility: visible;
+    }
+
+    /* PRINCIPAL SECTION */
+
+    .principal-section {
+    flex-direction: column;
+    align-items: center;
+
+        .img-principal {
+        width: 500px;
+        height: 335px;
+        }
+
+        .container-principal {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+            .principal-text {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 30px 0px 0px;
+            }
+
+            .parrafo-principal {
+            font-size: 25px;
+            margin: 0px;
+            padding: 30px;
+            }
+        }
+    }
+    
+
+    /* CAROUSEL */
+
+    .content-carousel {
+        padding: 30px 80px;
+    }
+
+    /* CARDS */
+
+    .section-cards {
+        margin: 0px 0px 50px;
+    }
+
+    /* FOOTER */
+
+    footer {
+        height: 535px;
+    }
+
+    .container-footer {
+    align-content: center;
+    height: 100%;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    padding: 50px 70px;
+
+        .seccion-1Footer {
+        flex-direction: column-reverse;
+        width: 100%;
+
+            .mover {
+            display: flex;
+            justify-content: center;
+            }
+
+            .redes {
+            margin-bottom: 3rem;
+            flex-wrap: wrap;
+            }   
+        }
+}
+    
+    .navbar-footer {
+    width: 344px;
+
+        .navbar1 {
+        font-size: 16px;
+        display: flex;
+        flex-direction: column;
+        }
+    }
+
+    input {
+    height: 40px;
+    }
+
+    .copyright {
+        justify-content: center;
+        padding: 0rem;
+        padding-bottom: 40px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .navbar-footer {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
+// NOSOTROS
+
+@media screen and (max-width: 768px) {
+
+    /* HEADER */
+    .hiddenMobile {
+        display: none;
+    }
+
+    #visible {
+        visibility: visible;
+    }
+
+    .hamburguesa {
+        display: flex;
+        visibility: visible;
+    }
+
+    /* PRINCIPAL SECTION */
+
+    .principal-section {
+        flex-direction: column;
+        align-items: center;
+
+        .img-principal {
+        width: 500px;
+        height: 335px;
+        }
+
+        .container-principal {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+
+            .principal-text {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 30px 0px 0px;
+            }
+
+            .parrafo-principal {
+            font-size: 25px;
+            margin: 0px;
+            padding: 30px;
+            }
+        }
+
+    }
+    
+
+    /* CAROUSEL */
+
+    .content-carousel {
+        padding: 30px 80px;
+    }
+
+    /* CARDS */
+
+    .section-cards {
+        margin: 0px 0px 50px;
+    }
+
+    /* FOOTER */
+
+    footer {
+        height: 535px;
+
+        .container-footer {
+        align-content: center;
+        height: 100%;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+        padding: 50px 70px;
+
+            .seccion-1Footer {
+            flex-direction: column-reverse;
+            width: 100%;
+
+                .mover {
+                display: flex;
+                justify-content: center;
+                }
+
+                .redes {
+                margin-bottom: 3rem;
+                flex-wrap: wrap;
+                }
+            }
+    
+            input {
+            /* margin entre nav y form hace que se vea mal */
+            height: 40px;
+            }
+
+            .navbar-footer {
+            width: 344px;
+            height: 161px;
+
+                .navbar1 {
+                font-size: 16px;
+                display: flex;
+                flex-direction: column;
+                }
+            }
+
+            .copyright {
+            justify-content: center;
+            padding: 0rem;
+            padding-bottom: 40px;
+            }
+        }
+    }
+}

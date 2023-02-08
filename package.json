@@ -1,0 +1,25 @@
+{
+  "name": "constanza_flores_greenhouse",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/style.scss css/main.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\" "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cxnstanzx/Constanza_Flores_GreenHouse.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Cxnstanzx/Constanza_Flores_GreenHouse/issues"
+  },
+  "homepage": "https://github.com/Cxnstanzx/Constanza_Flores_GreenHouse#readme",
+  "devDependencies": {
+    "node-sass": "^8.0.0",
+    "nodemon": "^2.0.20"
+  }
+}

@@ -1,0 +1,33 @@
+fieldset {
+    border-radius: 20px;
+    background: -webkit-linear-gradient(left, #82aa13, #c7d496);
+    padding: 50px 100px;
+    margin: 80px;
+
+    legend{
+        font-size: 50px;
+        font-weight: 500;
+        color: white;
+        text-align: center;
+    }
+
+    #exampleFormControlTextarea1{
+        height: 300px;
+
+    }
+
+    .button-contactanos {
+        color: white;
+        background-color: black;
+        border: none;
+        border-radius: 50px;
+        width: 100px;
+        height: 40px;
+
+        &:hover {
+            background-color: rgba(5, 95, 57, 0.712);
+            border-style: outset;
+            cursor: pointer;
+        }
+    }
+}

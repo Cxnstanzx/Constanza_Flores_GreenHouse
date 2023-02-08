@@ -1,0 +1,95 @@
+footer {
+  // height: 200px;
+  background: -webkit-linear-gradient(left, #82aa13, #c7d496);
+
+  .container-footer {
+    display: flex;
+    justify-content: space-around;
+    padding: 30px 100px 0px;
+
+    .seccion-1Footer {
+      display: flex;
+      flex-direction: column;
+      width: 154px;
+      justify-content: space-between;
+
+      .logo {
+        width: 80px;
+      }
+
+      .redes {
+        display: flex;
+        justify-content: space-between;
+
+        a:hover {
+            background-color: #82aa13;
+            cursor: pointer;
+            border-style: outset;
+            border-width: 6px;
+          }
+      }
+    }
+
+    .navbar-footer {
+    width: 60;
+    display: flex;
+    justify-content: space-around;
+
+      .navbar1 {
+      font-size: 16px;
+      display: flex;
+      flex-direction: column;
+    
+        div a {
+        height: 90%;
+        
+        }
+
+          a{
+          color: white;
+          padding: 0.5rem;
+          font-weight: 300;
+          font-size: 18px;
+            &:hover {
+            background-color: #82aa13;
+            cursor: pointer;
+            border-style: outset;
+            border-width: 6px;
+            }
+          }
+      }
+    }
+
+    input {
+    border: none;
+    width: 201px;
+    height: 44px;
+    border-radius: 50px;
+    }
+      
+    .button {
+    color: white;
+    background-color: black;
+    border: none;
+    border-radius: 50px;
+    width: 100px;
+    height: 40px;
+    
+      &:hover {
+      background-color: rgba(5, 95, 57, 0.712);
+      border-style: outset;
+      cursor: pointer;
+      }
+  
+    }
+
+  }
+  .copyright {
+  padding: 0px 250px 0px 100px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  background: -webkit-linear-gradient(left, #82aa13, #c7d496);
+  color: #95a89a;
+  }
+}
