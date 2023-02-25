@@ -2,18 +2,24 @@
 
 .principal-section-index {
     background-image: url(/root/img/greenhouse-g5560a519c_1280.jpg);
-    background-size: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
     height: 600px;
     text-align: center;
-    justify-content: center;
     align-items: center;
-    color: rgb(7, 75, 7);
+    
 
     .container-principal {
         flex-direction: column;
         justify-content: center;
-        background-color: rgba(170, 235, 97, 0.2);
+        background-color: rgba(191, 243, 130, 0.2);
         width: 100%;
-        height: 200px;
+        
+
+        h1{
+            color: rgb(9, 65, 9);
+        }
     }
 }

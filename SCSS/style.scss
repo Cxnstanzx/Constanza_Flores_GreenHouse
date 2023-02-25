@@ -1,10 +1,7 @@
+@import "./components/media";
+
 @import "./layout/header";
 @import "./layout/footer";
-@import "./layout/grid";
-
-@import "./estructura";
-
-@import "./components/media";
 
 @import "./pages/nosotros";
 @import "./pages/proyectos";
@@ -12,7 +9,5 @@
 @import "./pages/blog";
 @import "./pages/contactanos";
 
-
-@import "./base/colores";
-
+@import "./estructura";
 

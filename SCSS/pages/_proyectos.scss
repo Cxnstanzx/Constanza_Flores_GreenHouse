@@ -7,24 +7,34 @@
     border-radius: 70%;
 }
 
-#carousel-section{
-    padding: 20px 200px;
-}
-
-.parrafo-carousel {
-    color: white;
-    padding-top: 40px;
-}
-
-.card-galeria{
+.carousel-inner{
     background: -webkit-linear-gradient(left, #82aa13, #c7d496);
-    margin: 30px;
-    padding: 30px;
+    padding: 50px 200px;
+
+    .carousel-caption {
+    position:static;
+    padding: 15px;
+    background-color: #3f520d;
+    }
+    
+    .parrafo-carousel {
+    color: white;
+    }
+
 }
 
-#card-destacados{
-    border-radius: 0%;
-}
+
+
+
+// .card-galeria{
+//     background: -webkit-linear-gradient(left, #82aa13, #c7d496);
+//     margin: 30px;
+//     padding: 30px;
+// }
+
+// #card-destacados{
+//     border-radius: 0%;
+// }
 
 .card-group{
 margin: 20px 50px;

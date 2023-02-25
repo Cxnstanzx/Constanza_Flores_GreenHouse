@@ -17,22 +17,23 @@
       <img class="logo" src="img/pngegg.png" alt="" />
       <nav class="header-navbar">
         <ul class="header-lista flex">
-          <li><a href="1-index.html">Inicio</a></li>
-          <li><a href="2-nosotros.html">Nosotros</a></li>
-          <li><a href="3-proyectos.html">Proyectos</a></li>
-          <li><a href="4-blog.html">Blog</a></li>
+          <li><a class="hiddenMobile" href="1-index.html">Inicio</a></li>
+          <li><a class="hiddenMobile" href="2-nosotros.html">Nosotros</a></li>
+          <li><a class="hiddenMobile" href="3-proyectos.html">Proyectos</a></li>
+          <li><a class="hiddenMobile" href="4-blog.html">Blog</a></li>
         </ul>
       </nav>
       
-      <input class="header-contactanos" type="button" value="Contactanos" />
+      <input class="header-contactanos" href="5-contactanos.html" type="button" value="Contactanos" />
+      <img class= "hamburguesa flex" src="./img/icon-hamburger.svg" alt="">
     </header>
 
     <!-- FORMULARIO DE CONTACTO -->
 
 <fieldset class="form">  
-  <legend>CONTÁCTANOS</legend>
+  <legend class="text-legend">CONTÁCTANOS</legend>
   <div class="mb-3">
-    <label for="exampleFormControlInput1" class="form-label">Name & Apellido</label>
+    <label for="exampleFormControlInput1" class="form-label">Nombre & Apellido</label>
     <div class="row">
       <div class="col">
         <input type="text" class="form-control" placeholder="First name" aria-label="First name">
@@ -43,11 +44,11 @@
     </div>
   </div>
   <div class="mb-3">
-    <label for="exampleFormControlInput1" class="form-label">Email address</label>
+    <label for="exampleFormControlInput1" class="form-label">Email</label>
     <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
   </div>
   <div class="mb-3">
-    <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+    <label for="exampleFormControlTextarea1" class="form-label">Descripcion</label>
     <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
   </div>
   <input class="button-contactanos" type="button" value="ENVIAR" />
@@ -71,13 +72,13 @@
 
             <nav class="navbar-footer">
               <div class="navbar1 flex">
-                <a href="">Inicio</a>
-                <a href="">Nosotros</a>
-                <a href="">Proyectos</a>
+                <a href="1-index.html">Inicio</a>
+                <a href="2-nosotros.html">Nosotros</a>
+                <a href="3-proyectos.html">Proyectos</a>
               </div>
               <div class="navbar1 flex">
-                <a href="">Blog</a></li>
-                <a href="">Contactanos</a></li>
+                <a href="4-blog.html">Blog</a></li>
+                <a href="5-contactanos.html">Contactanos</a></li>
               </div>
             </nav>
           </div>
